@@ -16,9 +16,12 @@
     src: url(font/Inspire-Bold.4ff15ddc93445342649194969715b0b5.woff2);
 }
 
+html {
+    font-family: Inspire, sans-serif;
+}
+
 body {
     background-color: #040714;
-    font-family: Inspire, sans-serif;
     line-height: 24px;
 }
 
@@ -66,13 +69,13 @@ body {
 }
 
 
-h1, .subtitulo-secao_assinatura {
+h1,
+.subtitulo-secao_assinatura {
     color: #ffff;
 }
 
 .disneyplus-first-rules {
-    font-size: 1.1em;
-    color: rgba(255, 255, 255, 0.5);
+    color: #c0c0c0;
 }
 
 .botao-assinatura {
@@ -97,10 +100,58 @@ h1, .subtitulo-secao_assinatura {
 
 .botoes-assinatura {
     display: flex;
-    gap: 2em;
-    
+    gap: 1.5em;
+
 }
 
 .img-series {
     padding-left: 2px;
+}
+
+.detalhes-planos {
+    color: #ffff;
+}
+
+.setinha {
+    opacity: 0.7;
+    transform: rotate(90deg);
+    width: 2vw;
+    display: flex;
+    margin: 12vh 5vw;
+}
+
+.secao-2-background {
+    background: url(img/conmebol.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.secao-2-background-text {
+    padding: 27vh 0 0 5vw;
+    width: 33vw;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 24px 0px;
+    line-height: 28.8px;
+}
+
+.secao-2-background-text2 {
+    padding: 0vh 0 0 5vw;
+    width: 33vw;
+    font-size: 1em;
+    line-height: 19.2px;
+}
+
+.planos-titulo {
+    color: #fff;
+    margin: 45px;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.planos-subtitulo {
+    color: #c0c0c0;
+    text-align: center;
+    margin
 }
